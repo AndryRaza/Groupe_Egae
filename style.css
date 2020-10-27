@@ -11,12 +11,12 @@ a, a:hover{
     background-size:cover;
 
     color:white;
-    height:800px;
+    height:750px;
 }
 #groupe_egae{
     background: linear-gradient(transparent,rgba(0,0,0,1)),url('img/image\ colonne1.jpg');
     background-size: cover;
-    height: 800px; 
+    height: 750px; 
 }
 
 #hover_approche{
@@ -29,6 +29,7 @@ a, a:hover{
 #solution{
     background: url('img/Asite_couv21.jpg');
     background-size: cover;
+    height:750px;
 }
 
 #hover_groupe{
