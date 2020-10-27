@@ -3,10 +3,9 @@ html, body{
 }
 #approche{
     background: url('img/image-1-egae-1000x1800.jpg');
+    background-size:cover;
+
     color:white;
     height:800px;
 }
 
-#approche p {
-    font-style: italic;
-}
