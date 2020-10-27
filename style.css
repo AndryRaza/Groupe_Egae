@@ -1,15 +1,20 @@
 html, body{
     height:100%;
 }
+a, a:hover{
+    text-decoration: none;
+    color:white;
+}
+
 #approche{
-    background: url('img/image-1-egae-1000x1800.jpg');
+    background: linear-gradient(transparent,rgba(0,0,0,1)),url('img/image-1-egae-1000x1800.jpg');
     background-size:cover;
 
     color:white;
     height:800px;
 }
 #groupe_egae{
-    background: url('img/image\ colonne1.jpg');
+    background: linear-gradient(transparent,rgba(0,0,0,1)),url('img/image\ colonne1.jpg');
     background-size: cover;
     height: 800px; 
 }
@@ -24,4 +29,12 @@ html, body{
 #solution{
     background: url('img/Asite_couv21.jpg');
     background-size: cover;
+}
+
+#hover_groupe{
+    display:none;
+}
+
+#groupe_egae:hover #hover_groupe{
+    display:block;
 }
