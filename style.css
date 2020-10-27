@@ -14,3 +14,7 @@ html, body{
     height: 800px;
    
 }
+#solution{
+    background: url('img/Asite_couv21.jpg');
+    background-size: cover;
+}
