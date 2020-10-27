@@ -39,10 +39,30 @@ a, a:hover{
     display:block;
 }
 
+#hover_solution{
+    display:none;
+}
+
+#solution:hover #hover_solution{
+    display:block;
+}
 .fixed-top {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     z-index: zindex-fixed;
+  }
+
+  .my-4{
+      width:22px;
+      height:5px;
+      background-color: white;
+      border: 2px solid white;
+  }
+
+  @media all and (max-width:490px){
+    #groupe_egae, #solution, #approche{
+        height:400px;
+    }
   }
