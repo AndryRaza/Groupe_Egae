@@ -25,3 +25,12 @@ html, body{
     background: url('img/Asite_couv21.jpg');
     background-size: cover;
 }
+
+
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
+  }
