@@ -34,6 +34,7 @@ a, a:hover{
 
 #hover_groupe{
     display:none;
+    padding-bottom: 14px;
 }
 #groupe_egae:hover #hover_groupe{
     display:block;
