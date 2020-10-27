@@ -6,3 +6,9 @@ html, body{
     color:white;
     height:800px;
 }
+#groupe_egae{
+    background: url('img/image\ colonne1.jpg');
+    background-size: cover;
+    height: 800px;
+   
+}
