@@ -32,6 +32,12 @@ a, a:hover{
     height:750px;
 }
 
+#hover_groupe{
+    display:none;
+}
+#groupe_egae:hover #hover_groupe{
+    display:block;
+}
 
 .fixed-top {
     position: absolute;
