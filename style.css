@@ -32,10 +32,11 @@ a, a:hover{
     height:750px;
 }
 
-#hover_groupe{
-    display:none;
-}
 
-#groupe_egae:hover #hover_groupe{
-    display:block;
-}
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: zindex-fixed;
+  }
