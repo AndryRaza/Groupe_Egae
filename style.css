@@ -11,6 +11,13 @@ html, body{
 #groupe_egae{
     background: url('img/image\ colonne1.jpg');
     background-size: cover;
-    height: 800px;
-   
+    height: 800px; 
+}
+
+#hover_approche{
+    display:none;
+}
+
+#approche:hover #hover_approche{
+    display:block;
 }
