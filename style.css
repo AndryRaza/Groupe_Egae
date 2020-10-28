@@ -23,11 +23,10 @@ a, a:hover{
     display:none;
 }
 
-#approche:hover #hover_approche{
-    display:block;
-}
+
 #solution{
     background: url('img/Asite_couv21.jpg');
+    background: linear-gradient(transparent,rgba(0,0,0,1)),url('img/image\ colonne1.jpg');
     background-size: cover;
     height:750px;
 }
@@ -36,17 +35,13 @@ a, a:hover{
     display:none;
     padding-bottom: 14px;
 }
-#groupe_egae:hover #hover_groupe{
-    display:block;
-}
+
 
 #hover_solution{
     display:none;
 }
 
-#solution:hover #hover_solution{
-    display:block;
-}
+
 .fixed-top {
     position: absolute;
     top: 0;
@@ -62,6 +57,54 @@ a, a:hover{
       border: 2px solid white;
   }
 
+  /***************************Hover********************************************/
+#solution:hover #hover_solution{
+display:block;
+}
+
+#groupe_egae:hover #hover_groupe{
+display:block;
+}
+
+#approche:hover #hover_approche{
+display:block;
+}
+  /**************************Animations***********************************/
+
+  .slide-in-bottom {
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  /*********************Responsive*************************/
+
+  
   @media all and (max-width:490px){
     #groupe_egae, #solution, #approche{
         height:400px;
