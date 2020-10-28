@@ -29,6 +29,7 @@ a, a:hover{
     background: linear-gradient(transparent,rgba(0,0,0,1)),url('img/image\ colonne1.jpg');
     background-size: cover;
     height:750px;
+    position: relative;
 }
 
 #hover_groupe{
@@ -60,9 +61,20 @@ a, a:hover{
     font-style: italic;
 }
   /***************************Hover********************************************/
-#solution:hover #hover_solution{
+#solution:hover #hover_solution, #approche:hover #hover_approche{
 display:block;
+position: absolute;
+bottom:10%;
+left:19%;
 }
+
+#groupe_egae:hover #hover_groupe{
+    display:block;
+    position: absolute;
+    bottom:10%;
+    left:37%;
+}
+
 
 #groupe_egae:hover #hover_groupe{
 display:block;
