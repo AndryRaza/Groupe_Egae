@@ -80,16 +80,16 @@ margin-top:150%;
 
 /***hover**/
 
-#solution:hover .blocktext{
+#solution:hover .blocktext, #approche:hover .blocktext, #groupe_egae:hover .blocktext{
   
-  animation: slide-top 0.5s linear both;
+  animation: slide-top 0.5s linear 0.19999s both;
 } 
 
 
 
 .slide-top {
-  -webkit-animation: slide-top 1s linear;
-          animation: slide-top 1s linear;
+  -webkit-animation: slide-top 1s 2s linear;
+          animation: slide-top 1s 2s linear;
 }
 
 
