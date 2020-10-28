@@ -63,6 +63,25 @@ a, a:hover{
       border-left:0px;
       border-bottom: 0x solid white;
   }
+
+
+  /***************Colonne Nous contacter ***********************/
+  .journalinner{
+    padding: 0px 20px 20px 10px;
+  }
+.nouscontacter{
+  margin-top: 20px;
+}
+.media{
+  margin-top: 15px;
+}
+
+.imagearriereplan{
+  margin-top: 20px; 
+  width: 90%;
+}
+
+
 #groupe_egae .lead, #solution .lead, #approche .lead {
     font-style: italic;
 }
@@ -131,8 +150,8 @@ margin-top:150%;
   }
 
   .slide-in-bottom {
-	-webkit-animation: slide-in-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
  @-webkit-keyframes slide-in-bottom {
