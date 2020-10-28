@@ -54,9 +54,11 @@ a, a:hover{
       width:22px;
       height:5px;
       background-color: white;
-      border: 2px solid white;
+      border-bottom: 2px solid white;
   }
-
+#groupe_egae .lead, #solution .lead, #approche .lead {
+    font-style: italic;
+}
   /***************************Hover********************************************/
 #solution:hover #hover_solution{
 display:block;
@@ -69,7 +71,23 @@ display:block;
 #approche:hover #hover_approche{
 display:block;
 }
+
+#solution:hover .my-4, #approche:hover .my-4, #groupe_egae:hover .my-4{
+    animation : anim_barre 0.5s both;
+}
+
+
   /**************************Animations***********************************/
+  @keyframes anim_barre{
+      0%{
+          width:22px;
+      }
+      100%{
+          width:100px;
+          border : 0 solid white;
+          border-bottom:0.1px solid white;
+      }
+  }
 
   .slide-in-bottom {
 	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -108,5 +126,9 @@ display:block;
   @media all and (max-width:490px){
     #groupe_egae, #solution, #approche{
         height:400px;
+    }
+
+    .navbar{
+        width:100%;
     }
   }
