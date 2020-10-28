@@ -66,6 +66,10 @@ a, a:hover{
 #groupe_egae .lead, #solution .lead, #approche .lead {
     font-style: italic;
 }
+
+#hover_solution:hover::after{
+    animation : slide-out-bottom 1s both;
+}
   /***************************Hover********************************************/
 #approche:hover #hover_approche,#groupe_egae:hover #hover_groupe,#solution:hover #hover_solution{
 display:block;
@@ -80,12 +84,40 @@ margin-top:150%;
     animation: slide-top 0.5s linear 0.19999s both;
   } 
 
-  
+  #solution .blocktext, #groupe_egae .blocktext, #approche .blocktext{
+    animation: slide-bot 0.5s linear 0.19999s both;
+
+}
 
 /******************************Animation slide-top **************************/
 
 
 
+ @-webkit-keyframes slide-out-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+  }
+  @keyframes slide-out-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+  }
+  
 
 
 .slide-top {
@@ -120,6 +152,31 @@ margin-top:150%;
 } 
 
 
+
+@-webkit-keyframes slide-bot {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+                opacity: 50%;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+              
+    }
+    }
+@keyframes slide-bot {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+              opacity: 50%;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+              
+    }
+    } 
 
 
   /**************************Animations***********************************/
